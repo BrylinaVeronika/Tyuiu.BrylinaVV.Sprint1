@@ -1,5 +1,5 @@
-﻿using Tyuiu.BrylinaVV.Sprint1.Task2.V5.Lib;
-namespace Tyuiu.BrylinaVV.Sprint1.Task2.V5
+﻿using Tyuiu.BrylinaVV.Sprint1.Task3.V12.Lib;
+namespace Tyuiu.BrylinaVV.Sprint1.Task3.V12
 {
     internal class Program
     {
@@ -8,9 +8,9 @@ namespace Tyuiu.BrylinaVV.Sprint1.Task2.V5
             Console.Title = "Спринт #1 | Выполнила: Брылина В. В. | ИИПб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #5                                                              *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выполнила: Брылина Вероника Вячеславовна | ИИПб-26-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -20,16 +20,20 @@ namespace Tyuiu.BrylinaVV.Sprint1.Task2.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+           
+            DataService ds = new DataService();
 
-            Console.WriteLine("Введите длину стороны куба:");
-            int x = Convert.ToInt32(Console.ReadLine());
+            double a = 3;
+            double b = 4;
+            Console.WriteLine("Катет А треугольника = " + a);
+            Console.WriteLine("Катет B треугольника = " + b);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            DataService ds = new DataService();
-            Console.WriteLine("Площадь поверхности куба = " + ds.CalculateSideSquare(x));
-            
+            Console.WriteLine("Площадь прямоугольного треугольника = " + ds.TriangleArea(a, b));
+            Console.ReadKey();
+
         }
     }
 }
