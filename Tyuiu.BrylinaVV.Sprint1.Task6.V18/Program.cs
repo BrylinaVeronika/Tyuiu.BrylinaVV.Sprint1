@@ -29,6 +29,7 @@ namespace Tyuiu.BrylinaVV.Sprint1.Task6.V18
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.CheckNumber(s));
+            
         }
     }
 }
