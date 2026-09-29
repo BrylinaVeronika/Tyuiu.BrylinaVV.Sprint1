@@ -21,7 +21,7 @@ namespace Tyuiu.BrylinaVV.Sprint1.Task7.V9
             Console.WriteLine("*       x   y + cosx + 12xy - 3x                                          *");
             Console.WriteLine("*  z = e - ------------------------                                       *");
             Console.WriteLine("*                3                                                        *");
-            Console.WriteLine("*           cos(x + 3) + 18xy - 1                                         *");
+            Console.WriteLine("*           cos(x + 3) + 18y - 1                                         *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");

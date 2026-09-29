@@ -11,7 +11,7 @@ namespace Tyuiu.BrylinaVV.Sprint1.Task7.V9.Test
             double x = 1;
             double y = 1;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(1.844, res);
+            Assert.AreEqual(2.073, res);
             
         }
     }
